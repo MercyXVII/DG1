@@ -82,7 +82,8 @@ body {
   position: relative;
   background-color: rgb(50, 144, 255);
 }
-/* inleiding */
+/* content
+   inleiding */
 .inleiding {
   position: absolute;
   width: 85%;
@@ -97,4 +98,19 @@ body {
   width: 100%
   padding: 25px;
   color: white;
+}
+/* Alinea's */
+.paragraven {
+  position: absolute;
+  width: 85%;
+  left: 7.5%;
+  margin-left: -12.5px;
+  top: 45%;
+}
+.paragraaf{
+  font-style: 'Asap Condensed';
+  font-size: 1.1em;
+  padding: 40px;
+  margin: 25px;
+  background-color: white;
 }
