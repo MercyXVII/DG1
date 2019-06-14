@@ -49,6 +49,7 @@ body {
   background-color: #80CAFE;
   top: -12px;
   color: white;
+  text-decoration: none;
 }
 #button1 {
   left: 20%;
@@ -80,4 +81,20 @@ body {
   left: 52px;
   position: relative;
   background-color: rgb(50, 144, 255);
+}
+/* inleiding */
+.inleiding {
+  position: absolute;
+  width: 85%;
+  left: 7.5%;
+  margin-left: -12.5px;
+  padding: 25px;
+  top: 30%;
+  background-color: rgb(0, 94, 171);
+}
+#welkomtekst {
+  position: relative;
+  width: 100%
+  padding: 25px;
+  color: white;
 }
