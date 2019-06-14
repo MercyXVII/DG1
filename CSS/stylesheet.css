@@ -11,7 +11,7 @@ body {
   background-size: cover;
 }
 
-/*Menubalk*/
+/* menubalk */
 .topbar {
   display: inline-block;
   background-color: rgba(27, 49, 255, 0.6);
@@ -19,7 +19,6 @@ body {
   width: 100%;
   margin-bottom: 100px;
 }
-
 .header {
   margin-top: 0;
   position: relative;
@@ -29,7 +28,7 @@ body {
   width: 100%;
   align-content: center;
 }
-
+/* logo */
 .logotext {
   font-size: 3em;
   font-weight: bold;
@@ -37,4 +36,28 @@ body {
 }
 .logo, img {
   margin-left: 20px;
+}
+/* buttons */
+.button {
+  list-style-type: none;
+  position: absolute;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 25px;
+  margin: 0px;
+  background-color: #80CAFE;
+  top: -12px;
+  color: white;
+}
+#button1 {
+    left: 20%;
+}
+#button2 {
+    left: 35%;
+}
+#button3 {
+    left: 50%;
+}
+#button4 {
+    left: 65%;
 }
